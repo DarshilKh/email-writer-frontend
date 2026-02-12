@@ -1,16 +1,56 @@
-# React + Vite
+# AI Email Writer - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web interface for generating AI-powered email replies.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Material UI
+- Axios
+- Hosted on Netlify
 
-## React Compiler
+## 🏗 Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+User → Netlify (React App)
+→ Render (Spring Boot API)
+→ Groq AI
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+  ├── App.js
+  ├── index.js
+  └── components (if any)
+
+## ⚙ Configuration
+
+The backend API URL is currently hardcoded:
+
+https://email-writer-backend-uii5.onrender.com/api/email/generate
+
+## ▶ Running Locally
+
+1. Install dependencies:
+   npm install
+
+2. Start dev server:
+   npm start
+
+3. Build for production:
+   npm run build
+
+Build output directory:
+dist (Vite)
+
+## 🌍 Deployment
+
+Hosted on Netlify:
+https://email-writer-front.netlify.app/
+
+## 🔮 Future Improvements
+
+- Add authentication
+- Add loading state improvements
+- Add dark/light theme toggle
+- Add email history storage
+- Add prompt customization
