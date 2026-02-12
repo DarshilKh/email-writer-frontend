@@ -41,9 +41,10 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/email/generate",
+        "https://email-writer-backend-uii5.onrender.com/api/email/generate",
         { emailContent, tone },
       );
+
       setGeneratedReply(response.data);
     } catch (err) {
       setError("Failed to generate email reply. Please try again.");
