@@ -15,12 +15,6 @@ User → Netlify (React App)
 → Render (Spring Boot API)
 → Groq AI
 
-## 📂 Project Structure
-
-src/
-  ├── App.js
-  ├── index.js
-  └── components (if any)
 
 ## ⚙ Configuration
 
