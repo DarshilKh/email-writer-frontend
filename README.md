@@ -64,30 +64,37 @@ Groq AI (LLM Processing)
 
 Backend API endpoint:
 
-
 https://email-writer-backend-uii5.onrender.com/api/email/generate
-
 
 ---
 
 ## ▶️ Running Locally
 
-```bash
-npm install
-npm run dev
-npm run build
-```
+npm install  
+npm run dev  
+npm run build  
+
 Build output directory: dist (Vite)
 
-🌍 Deployment
-🌐 https://email-writer-front.netlify.app/
-🔮 Roadmap
-🔐 Authentication system
-🌗 Dark/Light theme toggle
-📜 Email history storage
-⚡ Improved loading states
-🧠 Prompt customization
-👨‍💻 Author
+---
 
-Darshil Khandelwal
+## 🌍 Deployment
+
+https://email-writer-front.netlify.app/
+
+---
+
+## 🔮 Roadmap
+
+- Authentication system  
+- Dark/Light theme toggle  
+- Email history storage  
+- Improved loading states  
+- Prompt customization  
+
+---
+
+## 👨‍💻 Author
+
+Darshil Khandelwal  
 BCA Student · Building scalable full-stack systems
